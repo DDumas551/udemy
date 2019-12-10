@@ -1,0 +1,15 @@
+Linked List is ordered
+    no indicies
+    contains:
+        Head
+        Tail
+        Length properties
+    Consists of Nodes
+        Each Node has a value and a pointer to anoter node or null
+LISTS
+    Lists do not have indexes
+    Connected via nodes with a NEXT pointer
+    Random Access is not allowed
+ARRAYS
+indexed in orderedinsertion and deletion can be expensive
+can quickly be accessed at a specific index
