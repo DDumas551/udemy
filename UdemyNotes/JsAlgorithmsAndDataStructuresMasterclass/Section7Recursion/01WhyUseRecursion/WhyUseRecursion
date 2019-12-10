@@ -1,0 +1,7 @@
+Recursion is a process that calls itself
+
+Examples:
+    JSON.parse / JSON.stringify
+    document.getElementById and DOM traversal algorithms
+    Object traversal
+    

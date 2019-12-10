@@ -1,0 +1,3 @@
+Anytime a function is invoked, it's pushed on top of the call stack
+
+when JavaScript sees the return keyword or when the function ends, the compiler will remove the function

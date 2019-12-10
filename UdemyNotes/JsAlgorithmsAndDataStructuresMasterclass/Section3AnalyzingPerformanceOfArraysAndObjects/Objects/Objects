@@ -1,0 +1,18 @@
+unordered data structures
+
+stored in key value pairs
+
+work well when no order is needed
+
+Big O of Objects:
+    insertion: O(1)
+    removal: O(1)
+    searching: O(n)
+    Access: O(1)
+
+Big O of Object Methods:
+    Object.keys: O(n)
+    Object.values: O(n)
+    Object.entries: O(n)
+    Object.hasOwnProperty: O(1)
+

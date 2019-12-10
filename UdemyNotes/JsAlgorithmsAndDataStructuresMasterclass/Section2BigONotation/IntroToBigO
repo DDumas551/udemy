@@ -1,0 +1,45 @@
+Evaluate speed.
+
+    let start = performance.now()
+    //function
+    let finish = performance.now()
+
+    start - finish / 1000 = seconds
+
+Counting Opperations
+    gets tricky
+
+Definition of Big O
+    We say that an algorithm is 
+    
+    O(f(n))
+
+    if the number of simple Opperations the computer
+    has to do is eventually less than a constant times
+
+    f(n)
+
+    as n increases.
+
+    f(n) could be linear (f(n)=n)
+        as n grows time scales ~1:1
+            function addUp(n) {
+            let total = 0;
+            for (let i = 0; i <= n; i++) {
+                total += i;
+                }
+            return total;
+            }
+
+    f(n) could be quadratic (f(n) = n^2)
+        as n grows, time squares
+
+    f(n) could be constant (f(n) = 1)
+        runtime is constant
+            function addUp2(n) {
+                return (n * (n + 1)) / 2;
+            }
+
+    f(n) could be something entirely different! lolomg
+
+

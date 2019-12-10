@@ -1,0 +1,19 @@
+Use arrays when you need order
+
+When are they slow?
+
+Big O of arrays
+    insertion: depends...
+    removal: depends...
+    searching: O(n)
+    Access: O(1)
+
+.push: O(1)
+.pop: O(1)
+.unshift: O(n)
+.shift: O(n)
+.concat: O(n)
+.slice: O(n)
+.splice: O(n)
+.sort(n * log n) ...oh dip
+forEach/map/filter/reduce/etc: O(n)
