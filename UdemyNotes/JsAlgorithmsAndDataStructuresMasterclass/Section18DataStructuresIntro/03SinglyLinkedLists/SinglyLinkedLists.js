@@ -95,8 +95,26 @@ class SinglyLinkedList {
     return true;
   }
   remove(idx) {
-    if (idx < 0 || idx > this.length) return undefined;
+    if (idx < 0 || idx >= this.length) return undefined;
+    if (idx === 0) return this.shift();
+    if (idx === this.length - 1) return this.pop();
+    var previousNode = this.get(idx - 1);
+    var removed = previousNode.next;
+    previousNode.next = removed.next;
+    this.length--;
+    return removed;
   }
+  print() {
+    var arr = [];
+    var current = this.head;
+    while (current) {
+      arr.push(current.val);
+      current = current.next;
+    }
+  }
+  // reverse(){
+  //   if()
+  // }
 }
 console.log("Hey");
 

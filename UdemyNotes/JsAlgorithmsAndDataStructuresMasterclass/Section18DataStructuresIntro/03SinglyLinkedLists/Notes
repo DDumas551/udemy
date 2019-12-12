@@ -11,5 +11,5 @@ LISTS
     Connected via nodes with a NEXT pointer
     Random Access is not allowed
 ARRAYS
-indexed in orderedinsertion and deletion can be expensive
-can quickly be accessed at a specific index
+    Indexed in orderedinsertion and deletion can be expensive
+    Can quickly be accessed at a specific index
