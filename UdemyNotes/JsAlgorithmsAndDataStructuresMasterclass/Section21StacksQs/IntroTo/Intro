@@ -1,0 +1,10 @@
+What is a stack?
+    abstact data structure
+    LIFO last in first out
+    
+
+Use cases
+    manage function invocations
+    undo / redo like Photoshop
+    Routing (history object)
+    
